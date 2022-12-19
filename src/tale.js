@@ -28,3 +28,6 @@ function newYear(character) {
       break;
   }
 }
+
+console.log(kolobok(fox));
+console.log(newYear(FatherFrost));
