@@ -1,8 +1,8 @@
 const grandpa = "Дедушка";
 const rabbit = "Заяц";
 const fox = "Лиса";
-const FatherFrost = "Дед Мороз";
-const SnowMaiden = "Снегурочка";
+const fatherFrost = "Дед Мороз";
+const snowMaiden = "Снегурочка";
 
 function kolobok(character) {
   switch (character) {
@@ -17,12 +17,12 @@ function kolobok(character) {
 
 function newYear(character) {
   switch (character) {
-    case FatherFrost:
-      return `${FatherFrost}! ${FatherFrost}! ${FatherFrost}!`;
-    case SnowMaiden:
-      return `${SnowMaiden}! ${SnowMaiden}! ${SnowMaiden}!`;
+    case fatherFrost:
+      return `${fatherFrost}! ${fatherFrost}! ${fatherFrost}!`;
+    case snowMaiden:
+      return `${snowMaiden}! ${snowMaiden}! ${snowMaiden}!`;
   }
 }
 
 console.log(kolobok(fox));
-console.log(newYear(FatherFrost));
+console.log(newYear(fatherFrost));
